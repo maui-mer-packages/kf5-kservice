@@ -107,7 +107,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_kf5_includedir}/kservice_version.h
 %{_kf5_includedir}/KService
-%{_kf5_bindir}/desktoptojson
 %{_kf5_libdir}/libKF5Service.so
 %{_kf5_cmakedir}/KF5Service
 %{_kf5_mkspecsdir}/qt_KService.pri
