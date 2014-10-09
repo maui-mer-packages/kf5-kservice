@@ -48,6 +48,9 @@ RequiresPost:
 RequiresPostUn:
     - /sbin/ldconfig
 
+LocaleName: kservice5_qt
+LocaleOptions: "--with-qt --all-name || :"
+
 Files:
     - "%doc COPYING COPYING.LIB README.md"
     - "%{_kf5_bindir}/kbuildsycoca5"
